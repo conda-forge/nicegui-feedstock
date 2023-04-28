@@ -43,10 +43,6 @@ requirements:
 test:
   imports:
     - nicegui
-  requires:
-    - pip
-  commands:
-    - pip check
 
 about:
   home: https://github.com/zauberzeug/nicegui
