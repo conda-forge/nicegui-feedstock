@@ -33,7 +33,7 @@ Current release info
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-nicegui-green.svg)](https://anaconda.org/conda-forge/nicegui) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/nicegui.svg)](https://anaconda.org/conda-forge/nicegui) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/nicegui.svg)](https://anaconda.org/conda-forge/nicegui) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/nicegui.svg)](https://anaconda.org/conda-forge/nicegui) |
 
-Installing nicegui
+Installing NiceGUI
 ==================
 
 Installing `nicegui` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
