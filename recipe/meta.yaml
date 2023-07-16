@@ -28,7 +28,7 @@ requirements:
     - typing-extensions >=3.10.0
     - markdown2 >=2.4.7,<3.0.0
     - pygments >=2.9.0,<3.0.0
-    - uvicorn[standard] >=0.20.0,<0.21.0
+    - uvicorn[standard] >=0.20.0,<1.0.0
     - matplotlib-base >=3.6.0,<4.0.0
     - fastapi >=0.92,<0.93
     - fastapi-socketio >=0.0.10,<0.0.11
