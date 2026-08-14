@@ -1,5 +1,5 @@
 {% set name = "nicegui" %}
-{% set version = "3.15.0" %}
+{% set version = "3.16.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/zauberzeug/nicegui/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: d2cc222504021b00f39418d648cf64159d5cebee5cc862fc7608cc4a3167b950
+  sha256: e2008373696872a2745ef25f3841092a7faa4a1851f8c7e3ce093a2c925c0598
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script:
     # The archive has no .git, so poetry-dynamic-versioning otherwise resolves
     # against whatever repository encloses the build directory.
