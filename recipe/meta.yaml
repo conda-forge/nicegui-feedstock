@@ -1,5 +1,5 @@
 {% set name = "nicegui" %}
-{% set version = "3.18.0" %}
+{% set version = "3.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/zauberzeug/nicegui/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 32cd80209b3dee6285aa9c2406e8cc824644eaf79d6177627705eba2472f00f1
+  sha256: 9717ebce9a2eebbb774f5c9a23b9193da09e0e9d0e527f620531c1a62a9f4c87
 
 build:
   noarch: python
